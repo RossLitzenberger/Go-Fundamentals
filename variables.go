@@ -2,12 +2,14 @@ package main
 
 import (
 	"fmt"
+	"os"
 )
 
 func main() {
 
-	name := "Ross"      // Name of subscriber
-	course := "Go Lang" // Name of current course
+	name := os.Getenv("USER") // Name of User
+	course := "Go Lang"       // Name of current course
+
 	fmt.Println("\nHi", name, "you're currently watching", course)
 
 	changeCourse(&course)
