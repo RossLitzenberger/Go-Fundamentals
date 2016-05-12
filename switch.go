@@ -11,6 +11,7 @@ func main() {
 		fmt.Println("\nHere are some recommanded" + " Linux courses...")
 	case "docker":
 		fmt.Println("\nHere are some recommanded" + " Docker courses...")
+		fallthrough
 	case "mac":
 		fmt.Println("\nHere are some recommanded" + " Mac courses...")
 	default:
