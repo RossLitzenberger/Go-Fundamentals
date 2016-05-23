@@ -17,8 +17,8 @@ func main() {
 	DockerDeepDive := courseMeta{
 		Author: "Testing",
 		Level: "Intermediate",
-		Rating: 5,
+		Rating: 1,
 	}
-	
-	fmt.Println(DockerDeepDive)
+	fmt.Println("\nDocker Deep Dive author is:", DockerDeepDive.Author)
+	fmt.Println("\nDocker Deep Dive rating is:", DockerDeepDive.Rating)
 }
